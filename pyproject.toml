@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lean-project-template"
+version = "0.1.0"
+description = "Lean, language-agnostic project template"
+authors = [{ name = "Lean Template Maintainers" }]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest"]
