@@ -1,0 +1,9 @@
+{
+  "name": "lean-project-template",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/example.mjs",
+    "test": "node --test tests"
+  }
+}
